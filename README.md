@@ -1,4 +1,8 @@
 # Bulk-add-watermark-to-image
+Script for bulk adding of watermark logo to images.
+
+Limitations: Existing image should have a white background, as a white border will be added to each image when pasting the watermark. This is to prevent the logo from clashing with the product. 
+
 ## Example
 
 ### Before
