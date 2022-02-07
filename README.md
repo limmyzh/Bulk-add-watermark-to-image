@@ -1,6 +1,13 @@
 # Bulk-add-watermark-to-image
 Script for bulk adding of watermark logo to images.
 
+### Guidelines
+The "watermark logo" image file is stored in the root folder and is named "water.png" and has to be a .png file.
+To replace with another image, ensure that the file is named "water.png" or change the value for the "watermarkFile" variable in the code. 
+
+Images in the input file need to be .jpg files. Images that are not .jpg will simply not be processed.
+Images that have completed the process will be saved as .png files. 
+
 #### Limitations 
 Existing image should have a <strong>white background</strong>, as a white border will be added to each image when pasting the watermark. 
 This is to prevent the logo from clashing with the product. 
