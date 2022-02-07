@@ -7,7 +7,8 @@ Script for bulk adding of watermark logo to images.
 3. Images that have completed the process will be saved in the output folder "images_output" as .png files. 
 
 ### Update watermark image.
-To replace with another image, ensure that the file is named "water.png" or change the value for the "watermarkFile" variable in the code. The watermark image needs to be a .png file. 
+1. To replace with another image, ensure that the file is named "water.png" or change the value for the "watermarkFile" variable in the code. 
+2. The watermark image needs to be a .png file. 
 
 #### Limitations 
 Existing image should have a <strong>white background</strong>, as a white border will be added to each image when pasting the watermark. 
