@@ -2,12 +2,12 @@
 Script for bulk adding of watermark logo to images.
 
 ### Guidelines
-1. The "watermark logo" image file is stored in the root folder and is named **"water.png"**. 
+1. The "watermark logo" image file is stored in the root folder and is named *"water.png"*. 
 2. Load images to be watermarked into into the input "images" folder. Images in the input folder need to be .jpg files. Images that are not .jpg will simply not be processed.
-3. Images that have completed the process will be saved in the output folder "images_output" as .png files. 
+3. Images that have completed the process will be saved in the output folder *"images_output"* as .png files. 
 
 ### Update watermark image.
-1. To replace with another image, ensure that the file is named "water.png" or change the value for the "watermarkFile" variable in the code. 
+1. To replace with another image, ensure that the file is named *"water.png"* or change the value for the *"watermarkFile"* variable in the code. 
 2. The watermark image needs to be a .png file. 
 
 #### Limitations 
